@@ -274,13 +274,13 @@ export default function CatalogPage() {
       {/* Hero */}
       <div className="bg-gradient-to-br from-orange-500 to-amber-500 paw-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-          <span className="inline-block bg-white/20 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-4">
+          <span className="inline-block bg-white/20 text-black text-sm font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-4">
             Precios transparentes
           </span>
-          <h1 className="text-4xl md:text-5xl font-black text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-black text-orange-500 mb-4">
             Catálogo de servicios
           </h1>
-          <p className="text-orange-100 text-lg max-w-2xl mx-auto">
+          <p className="text-amber-500 text-lg max-w-2xl mx-auto">
             Todos nuestros servicios y tarifas base en un solo lugar. Sin
             sorpresas.
           </p>

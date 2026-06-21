@@ -240,9 +240,7 @@ function CatalogPreview() {
           <h2 className="text-3xl md:text-4xl font-black text-stone-900 mt-2">
             Catálogo de servicios
           </h2>
-          <p className="text-stone-500 mt-3">
-            Precios base — actualiza los valores con tus tarifas reales
-          </p>
+          <p className="text-stone-500 mt-3">Precios base</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {SERVICES.map((s, i) => (
