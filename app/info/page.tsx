@@ -112,7 +112,11 @@ export default function InfoPage() {
       : GUIDES.filter((g) => g.category === activeCategory);
 
   const handleDownload = (idx: number) => {
-    setDownloaded((prev) => new Set([...prev, idx]));
+    setDownloaded((prev) => {
+      const next = new Set(prev); // Clona el Set existente sin usar [...]
+      next.add(idx); // Agrega el nuevo índice de forma segura
+      return next;
+    });
     // Simulate download of placeholder PDF
     const a = document.createElement("a");
     a.href = "#";
